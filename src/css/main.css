@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.site-hero-nav {
+  width: 100%;
+  height: 60px;
+  background-color: #000000ff;
+}
+.text-center {
+  margin-top: -500px;
+}
+.div-top-left {
+  height: 540px;
+  width: 600px;
+  background-repeat: no-repeat;
+  background-image: url("../image/top-left.svg");
+}
+.sign-in {
+  width: 500px;
+  height: 500px;
+  background-color: #f6fbf9;
+  border-radius: 50px;
+}
+.h1-signIn-text , .site-SingUp-col {
+  margin-top: 30px;
+}
+.inp-name {
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  background: #fff;
+  width: 95%;
+  height: 50px;
+  padding-left: 20px;
+  margin: 20px;
+}
+.btn-submit {
+  margin-top: 15px;
+  width: 391px;
+  height: 80px;
+  border-radius: 23.011px;
+  background: #84c7ae;
+  border: none;
+  outline: none;
+}
+.spn-sign {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+.site-lang-X {
+  margin: 18px;
+  width: 35px;
+  height: 20px;
+}
+.upper-case {
+  text-transform: uppercase;
+}
+.antd-changeX_inp {
+  margin: 10px !important;
+}
+.container-fluid {
+  width: 1500px !important;
+  /* overflow-x: scroll; */
+}
+.site-SingUp-bg{
+  width: 527px !important;
+  background-size: contain;
+  height: 377px !important;
+  background-repeat: no-repeat;
+  background-image: url("../image/bgSingUp.svg");
+  margin-top: 150px;
+}
+.site-SingUp-input{
+  padding-left: 10px;
+  outline: none;
+  margin: 20px;
+  border: 2px solid  #9947feff;
+  width: 336px !important;
+  height: 51px !important;
+  border-radius: 8px !important;
+  color: #000000ff;
+}
+.site-SingUp-button{
+  background-color: #4741fe !important;
+}
+.site-SingUp-input:focus{
+  border: 2px solid #ffc010ff;
+}
+.site-SingUp-h3 {
+  color: #4741fe;
+  font-weight: bold;
+}
+.site-res-h1{
+  color: #9947feff;
+}
